@@ -1,0 +1,1270 @@
+{
+  "last-updated": "04-03-24",
+  "config": {
+    "triesAllowedPerDay": 50,
+    "pointsCorrect": 1000,
+    "pointsWrong": 500,
+    "pointsBonus": 1000
+  },
+  "URLImagesHost": "",
+  "images": {
+    "es": {
+      "logoHeader": "/img/logo.webp",
+      "bubbleStartMessage": "",
+      "bubbleDailyLimit": "",
+      "rewardsImages": [
+        {
+          "src": "/img/premios-01.webp",
+          "name": "prize"
+        }
+      ]
+    },
+    "madeBy": "img/by-memoob.webp",
+    "backgroundApp": "",
+    "iconSoundActive": "/img/sound_active_icon.webp",
+    "iconSoundMute": "/img/sound_mute_icon.webp",
+    "spinButton": "/img/girar-icon.webp",
+    "pointerRoulette": "",
+    "rewardsButton": "/img/premios-icon.webp",
+    "termsButton": "/img/bases-icon.webp",
+    "arrowsSlider": {
+      "left": "/img/left-golden-arrow.webp",
+      "right": "/img/right-golden-arrow.webp"
+    },
+    "idolImage": "",
+    "idolCatCompleted": "",
+    "idolGolden": "",
+    "backgroundPoints": "/img/barra-puntos.webp"
+  },
+  "sounds": {
+    "muteButton": "/sound/pop-click.mp3",
+    "clickOpen": "/sound/arcade-pop.mp3",
+    "closePopup": "/sound/popup-close-minimize.mp3",
+    "startButton": "/sound/button_sound.mp3",
+    "rouletteWheel": "/sound/roulette_wheel.mp3",
+    "correctAnswerSound": "/sound/correct_answer.mp3",
+    "wrongAnswerSound": "/sound/wrong_answer.mp3"
+  },
+  "links": {
+    "termsURL": ""
+  },
+  "textsByLang": {
+    "es": {
+      "terms": "Bases",
+      "rewards": "Premios",
+      "categoryTitle": "Categoría",
+      "buttonStart": "Comenzar",
+      "dailyLimit": "Alcanzaste el límite diario para esta categoría",
+      "categoryCompleted": "¡Felicidades! ¡Completaste toda esta categoría!",
+      "congratsTriviaCompleted": "¡Felicidades! ¡Completaste toda la trivia!",
+      "correctAnswer": "Correcta",
+      "wrongAnswer": "Incorrecta"
+    },
+    "en": {
+      "terms": "T&C",
+      "rewards": "Prizes",
+      "categoryTitle": "Category",
+      "buttonStart": "Start",
+      "dailyLimit": "You reached the daily limit for this category",
+      "categoryCompleted": "Congratulations! You completed this entire category!",
+      "congratsTriviaCompleted": "Congratulations! You completed the Quiz!",
+      "correctAnswer": "Correct",
+      "wrongAnswer": "Incorrect"
+    },
+    "pt": {
+      "terms": "T&C",
+      "rewards": "Premios",
+      "categoryTitle": "Categoria",
+      "buttonStart": "Começar",
+      "dailyLimit": "Atingiste o limite diário de respostas nestas categorias",
+      "categoryCompleted": "Parabéns! Completaste toda nesta categoria!",
+      "congratsTriviaCompleted": "Parabéns! Completaste todo o desafio!",
+      "correctAnswer": "Correcta",
+      "wrongAnswer": "Incorrecta"
+    }
+  },
+  "categories": [
+    {
+      "name": "Música",
+      "imgURL": "/img/categoria-musica.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Cómo se llama la canción que cantó el Rubius en el cierre del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "El tacho",
+              "isCorrect": false
+            },
+            {
+              "text": "La Heladera",
+              "isCorrect": true
+            },
+            {
+              "text": "La papelera",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Qué banda musical cerró la última edición del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Ancud",
+              "isCorrect": true
+            },
+            {
+              "text": "Magnus Mefisto",
+              "isCorrect": false
+            },
+            {
+              "text": "Acido Mc",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿Quién fue el baterista de Vedito en el Club Media Fest Colombia?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Orni",
+              "isCorrect": false
+            },
+            {
+              "text": "Circulito",
+              "isCorrect": true
+            },
+            {
+              "text": "Kion",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿Qué canción cantaron YellowMellow y Elvisa en el Club Media Fest Colombia?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "La piragua",
+              "isCorrect": false
+            },
+            {
+              "text": "Soy colombiano",
+              "isCorrect": false
+            },
+            {
+              "text": "La pollera colorá",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿Junto a qué DJ cerró el Club Media Fest Chile 2015 el Rubius?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Tecno Andretix",
+              "isCorrect": false
+            },
+            {
+              "text": "Ignacio Buatti",
+              "isCorrect": true
+            },
+            {
+              "text": "One World",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Qué artista musical colombiano estuvo en el Club Media Fest Colombia?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Martina la peligrosa",
+              "isCorrect": true
+            },
+            {
+              "text": "Shakira",
+              "isCorrect": false
+            },
+            {
+              "text": "La divaza",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿Qué canción estrenó por primera vez en sudamerica YellowMellow en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "La canción picante",
+              "isCorrect": false
+            },
+            {
+              "text": "Autotransplante de corazón",
+              "isCorrect": false
+            },
+            {
+              "text": "Phantom Limb",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿Qué canción cerró todas las ediciones del Club Media Fest 2015?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Sun is shining",
+              "isCorrect": true
+            },
+            {
+              "text": "Sky full of stars",
+              "isCorrect": false
+            },
+            {
+              "text": "Livin la vida loca",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿Qué banda argentina creo un tema especialmente para el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Looking up",
+              "isCorrect": true
+            },
+            {
+              "text": "Lio Ferro",
+              "isCorrect": false
+            },
+            {
+              "text": "Julián Serrano",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿En qué país debutó como cantante YellowMellow en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Perú",
+              "isCorrect": false
+            },
+            {
+              "text": "Argentina",
+              "isCorrect": false
+            },
+            {
+              "text": "Chile",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Humor",
+      "imgURL": "/img/categoria-humor.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Con qué dos Youtubers se presentó Celopan en el Club Media Fest Argentina 2016?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "JPelirrojo y Ro en la Red",
+              "isCorrect": true
+            },
+            {
+              "text": "YellowMellow y Elvisa",
+              "isCorrect": false
+            },
+            {
+              "text": "AlexBy y StaXx",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Quién fue el conductor del Club Media Fest Chile 2015?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "David Montoya",
+              "isCorrect": false
+            },
+            {
+              "text": "David Montoya",
+              "isCorrect": false
+            },
+            {
+              "text": "Fabio Torres",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿De qué se disfrazaron el Rubius y Luzu para su entrevista?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Pikachu",
+              "isCorrect": true
+            },
+            {
+              "text": "Mangel",
+              "isCorrect": false
+            },
+            {
+              "text": "Uno del otro",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿Qué gran Booktuber estuvo presente en la primera edición del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Alberto Villalba",
+              "isCorrect": false
+            },
+            {
+              "text": "Fa Orozco",
+              "isCorrect": true
+            },
+            {
+              "text": "Raiza Revelles",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿Cómo se llama el Rey del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Cholis",
+              "isCorrect": false
+            },
+            {
+              "text": "Chonis",
+              "isCorrect": false
+            },
+            {
+              "text": "Chodis",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Cómo se llama el reto más famoso del Fernanfloo?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "El reto del twerking",
+              "isCorrect": false
+            },
+            {
+              "text": "El reto de la botella",
+              "isCorrect": true
+            },
+            {
+              "text": "El reto del chocolate",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿Cuál fue el Youtuber peruano más grande en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mox",
+              "isCorrect": true
+            },
+            {
+              "text": "De Barrio",
+              "isCorrect": false
+            },
+            {
+              "text": "EzraHoward",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿Con qué Youtuber subieron al escenario del Club Media Fest los Bajo Ningún Término?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Ninguno",
+              "isCorrect": true
+            },
+            {
+              "text": "Julián Serrano",
+              "isCorrect": false
+            },
+            {
+              "text": "Kevsho",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿Qué músico estuvo como conductor en el último Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Lio Ferro",
+              "isCorrect": false
+            },
+            {
+              "text": "Magnus Mefisto",
+              "isCorrect": true
+            },
+            {
+              "text": "Shacoscu",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿Qué show hizo Lucas Castel en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Desfiló",
+              "isCorrect": false
+            },
+            {
+              "text": "Hizo un gameplay",
+              "isCorrect": false
+            },
+            {
+              "text": "Bailó",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Curiosidades",
+      "imgURL": "img/categoria-curiosidades.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Qué Youtuber mexicano participó del primer Club Media Fest, pero pocas personas se dieron cuenta?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Werevertumorro",
+              "isCorrect": false
+            },
+            {
+              "text": "YosStop",
+              "isCorrect": false
+            },
+            {
+              "text": "Yuya",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Qué Youtuber se encontró con que alguien estaba en su habitación por equivocación en el hotel del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "SrCheeto",
+              "isCorrect": false
+            },
+            {
+              "text": "Luzu",
+              "isCorrect": true
+            },
+            {
+              "text": "Kion",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿Qué Youtuber creo caos en el aeropuerto de Argentina en su primera vez en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Rubius",
+              "isCorrect": true
+            },
+            {
+              "text": "AlexBy",
+              "isCorrect": false
+            },
+            {
+              "text": "Dustin Luke",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿En qué edición del Club Media Fest Luzu y Lana fueron a saludar a los fans que estaban haciendo fila para entrar al show?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Chile 2015",
+              "isCorrect": false
+            },
+            {
+              "text": "Argentina 2015, abril",
+              "isCorrect": true
+            },
+            {
+              "text": "Perú",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿En qué edición del Club Media Fest se lastimó la rodilla Mangel?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Chile 2015",
+              "isCorrect": false
+            },
+            {
+              "text": "Chile 2016",
+              "isCorrect": false
+            },
+            {
+              "text": "Argentina 2015, abril",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Qué Youtuber fue incorporado al show el día anterior al la segunda edición del Club Media Fest Argentina?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "AleXx Strecci",
+              "isCorrect": true
+            },
+            {
+              "text": "Dross",
+              "isCorrect": false
+            },
+            {
+              "text": "Juanpa Zurita",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿Qué banda hizo su debut mundial vivo en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Freak Out",
+              "isCorrect": false
+            },
+            {
+              "text": "Ancud",
+              "isCorrect": true
+            },
+            {
+              "text": "Magnus Mefisto",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿Qué Youtuber estaba escondido dentro de una papelera en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mangel",
+              "isCorrect": false
+            },
+            {
+              "text": "AlexBy",
+              "isCorrect": true
+            },
+            {
+              "text": "Vegetta",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿Qué Youtuber nos mostró toda la historia de su infancia en el Club Media Fest Argentina?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "El pelado justiciero",
+              "isCorrect": true
+            },
+            {
+              "text": "Julián Serrano",
+              "isCorrect": false
+            },
+            {
+              "text": "Daiana Hernández",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿Qué Youtuber se quedó el la suite presidencial en la primera edición del Club Media Fest Chile?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Daiana Hernández",
+              "isCorrect": false
+            },
+            {
+              "text": "Alejo Igoa",
+              "isCorrect": false
+            },
+            {
+              "text": "La Divaza",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifestyle",
+      "imgURL": "/img/categoria-lifestyle.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Qué Youtuber Argentina hizo un desfile en el primer Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Dai Hernández",
+              "isCorrect": false
+            },
+            {
+              "text": "Ann Look",
+              "isCorrect": true
+            },
+            {
+              "text": "Prima Vikinga",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Qué gran Youtuber local participó de un panel de junto a Lana y María Cadepe en la edición peruana?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Whatthechic",
+              "isCorrect": true
+            },
+            {
+              "text": "Juli Berea",
+              "isCorrect": false
+            },
+            {
+              "text": "Ninguna",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿Con qué material creo un vestuario Lina Menesses en el Club Media Fest Colombia?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Cartón",
+              "isCorrect": false
+            },
+            {
+              "text": "Papel",
+              "isCorrect": false
+            },
+            {
+              "text": "Bolsas de residuo",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿Qué Youtuber participó de un reto de maquillaje en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "YellowMellow",
+              "isCorrect": false
+            },
+            {
+              "text": "Nataly Valencia",
+              "isCorrect": true
+            },
+            {
+              "text": "Martina la Peligrosa",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿De qué color era el vestido de Lana en el primer Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Amarillo",
+              "isCorrect": false
+            },
+            {
+              "text": "Negro",
+              "isCorrect": true
+            },
+            {
+              "text": "Azul",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Quiénes fueron las noteras del primer Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Prima Vikinga y Dai Hernandez",
+              "isCorrect": false
+            },
+            {
+              "text": "Yoana Marlen y Azu Makeup",
+              "isCorrect": false
+            },
+            {
+              "text": "Cecia Saia y Frutilla Picante",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿Qué Youtuber Argentina de Makeup viajó para el Club Media Fest Chile 2016?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Nati Guida",
+              "isCorrect": false
+            },
+            {
+              "text": "Azu Makeup",
+              "isCorrect": true
+            },
+            {
+              "text": "Yoana Marlen",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿En qué edición del Club Media Fest desfiló Yoana Marlen?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Argentina 2015",
+              "isCorrect": true
+            },
+            {
+              "text": "Perú",
+              "isCorrect": false
+            },
+            {
+              "text": "Colombia",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿De qué hablaron Whatthechic y Ro en la Red en su panel en el fest de Perú?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "El humor en las redes sociales",
+              "isCorrect": false
+            },
+            {
+              "text": "La estética y la creación de contenido en Instagram y Snapchat",
+              "isCorrect": true
+            },
+            {
+              "text": "El fenómeno de los libros en la era digital",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿Quién es la reina de los tutoriales que participó del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "YellowMellow",
+              "isCorrect": false
+            },
+            {
+              "text": "Elvisa",
+              "isCorrect": false
+            },
+            {
+              "text": "María Cadepe",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Club Media Fest",
+      "imgURL": "/img/categoria-cmf.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Con qué Youtubers compitió Fernanfloo en Perú en el reto de la botella?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mox y Xodaaaa",
+              "isCorrect": true
+            },
+            {
+              "text": "Luzu y Lana",
+              "isCorrect": false
+            },
+            {
+              "text": "AlexBy y StaXx",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Quiénes ganaron al pictionary en el Club Media Fest abril 2015?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Ribius y Luzu",
+              "isCorrect": false
+            },
+            {
+              "text": "Luzu y Lana",
+              "isCorrect": false
+            },
+            {
+              "text": "Lana y Mangel",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿En cuántos Club Media Fest actuaron juntas YellowMellow y Elvisa?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "4",
+              "isCorrect": true
+            },
+            {
+              "text": "3",
+              "isCorrect": false
+            },
+            {
+              "text": "Todos",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿Con qué artistas compartió escenario Kevsho?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "La Divaza",
+              "isCorrect": false
+            },
+            {
+              "text": "JPelirrojo y Ro en la red",
+              "isCorrect": false
+            },
+            {
+              "text": "ElChuiucal, Ignacio Buiatti, Chino Castro",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿Qué Youtubers masculinos desfilaron con ropa creada por Ann Look?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Gonza Fonseca y Julianero",
+              "isCorrect": true
+            },
+            {
+              "text": "Julián Serrano y Chino Castro",
+              "isCorrect": false
+            },
+            {
+              "text": "David Montoya y Xoda",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Que Youtubers fueron vestidos de traje en la primera edición del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Magnus Mefisto y JPelirrojo",
+              "isCorrect": false
+            },
+            {
+              "text": "Vedito y Kion",
+              "isCorrect": true
+            },
+            {
+              "text": "Magnus Mefisto y JPelirrojo",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿En qué edición del Club Media Fest Luzu se presentó sin Lana?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Colombia",
+              "isCorrect": true
+            },
+            {
+              "text": "Perú",
+              "isCorrect": false
+            },
+            {
+              "text": "Argentina",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿Quiénes fueron los conductores del primer Club Media Fest en Chile?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Romina Dinamita y Xodaaaa",
+              "isCorrect": false
+            },
+            {
+              "text": "Fabio Torres y Orni",
+              "isCorrect": true
+            },
+            {
+              "text": "Fabio Torres y el Chino Castro",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿Quiénes se disfrazaron para un panel del Club Media Fest Colombia?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Luzu y Rubius",
+              "isCorrect": true
+            },
+            {
+              "text": "Luzu y Lana",
+              "isCorrect": false
+            },
+            {
+              "text": "Zorman y YellowMellow",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿Quién ganó el Bottle Flip Challenge en Argentina?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mox",
+              "isCorrect": false
+            },
+            {
+              "text": "Xodaaaa",
+              "isCorrect": false
+            },
+            {
+              "text": "ElChuiucal",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gamers",
+      "imgURL": "/img/categoria-gamers.webp",
+      "bonus": false,
+      "questions": [
+        {
+          "id": 1,
+          "title": "¿Cuál fue el primer gamer confirmado en la primera edición del Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Vegetta",
+              "isCorrect": false
+            },
+            {
+              "text": "Fernanfloo",
+              "isCorrect": false
+            },
+            {
+              "text": "El Rubius",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "¿Cuántos juegos ganó Fernanfloo en Club Media Fest Argentina 2016?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Ninguno",
+              "isCorrect": true
+            },
+            {
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "text": "3",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "¿En qué edición del Club Media Fest estuvo por primera vez Vegetta777?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Colombia 2016",
+              "isCorrect": false
+            },
+            {
+              "text": "Chile 2015",
+              "isCorrect": true
+            },
+            {
+              "text": "Perú 2016",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "¿Cuántas veces estuvo AlexBy en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "2",
+              "isCorrect": true
+            },
+            {
+              "text": "3",
+              "isCorrect": false
+            },
+            {
+              "text": "5",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "¿Qué hizo Fernanfloo al entrar al escenario por primera vez en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Llorar",
+              "isCorrect": false
+            },
+            {
+              "text": "Vomitar",
+              "isCorrect": true
+            },
+            {
+              "text": "Tropezarse",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "¿Qué Youtuber cantó una canción llamada 'Chica Gamer' en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Mangel",
+              "isCorrect": false
+            },
+            {
+              "text": "Zarcort",
+              "isCorrect": true
+            },
+            {
+              "text": "Lytos",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "¿Qué gamer presentó a Vegetta, Willyrex AlexBy y StaXx?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "ByAbel",
+              "isCorrect": true
+            },
+            {
+              "text": "German Garmendia",
+              "isCorrect": false
+            },
+            {
+              "text": "Giianpa",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "¿Qué duplas eligieron Willyrex, AleXby, Vegetta y StaXx para jugar en el Club Media Fest?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "AleXby Vegetta Vs StaXx Willyrex",
+              "isCorrect": false
+            },
+            {
+              "text": "AleXby, Willyrex Vs Vegetta y StaXx",
+              "isCorrect": false
+            },
+            {
+              "text": "AleXby StaXx Vs Willyrex Vegetta",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "¿Quiénes hicieron un panel gamer en Chile?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "Rubius y Mangel",
+              "isCorrect": false
+            },
+            {
+              "text": "Xodaaaa y Zarcort",
+              "isCorrect": true
+            },
+            {
+              "text": "AleXby StaXx Vs Willyrex Vegetta",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "¿En cuántos Club Media Fest participó Fernanfloo?",
+          "bonus": false,
+          "answers": [
+            {
+              "text": "2",
+              "isCorrect": false
+            },
+            {
+              "text": "3",
+              "isCorrect": true
+            },
+            {
+              "text": "7",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
